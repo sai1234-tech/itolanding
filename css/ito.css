@@ -1,0 +1,879 @@
+
+@font-face {
+	font-family: 'proxima_nova_rgregular';
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+		url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+		url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_rgbold';
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff') format('woff'),
+		url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf') format('truetype'),
+		url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'adelle_rgregular';
+	src: url('https://litmus.com/fonts/Emails/adelle_reg-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/adelle_reg-webfont.eot?#iefix') format('embedded-opentype'),
+		url('https://litmus.com/fonts/Emails/adelle_reg-webfont.woff') format('woff'),
+		url('https://litmus.com/fonts/Emails/adelle_reg-webfont.ttf') format('truetype'),
+		url('https://litmus.com/fonts/Emails/adelle_reg-webfont.svg#adelle_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+body {
+	font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+}
+
+.header {
+	background: #3A3A3A;
+	height: 5.2vw!important;
+}
+
+.top-nav {
+	float: right;
+}
+
+.top-nav-left {
+	margin: 0.5em 0 15em 10;
+	padding: 0 0 0 4.5em;
+}
+.top-nav-left ul {
+	padding: 0;
+	margin: 0em;
+}
+.top-nav-left li {
+	display: inline-block;
+	padding: 22px;
+	/* margin-right:4vw;	 */
+	margin-right:1vw;
+}
+.top-nav-left li a {
+	color: #515151;
+	text-decoration: none;
+}
+.top-nav-left li a:hover {
+	color: #add136;
+}
+.top-nav-right {
+	float: right;
+	margin: 1.5em 1.5em 2.5em 0px;
+}
+.top-nav-left span.menu {
+	display: none;
+}
+.top-nav-left span.menu:before {
+	content: url("../images/menu.png");
+	cursor: pointer;
+	width: 100%;
+}
+.bar_img{
+	height:3.125vw;
+	position: relative;
+	top:-5px;
+}
+.scroll {
+	text-align: left;
+	color: #ffffff !important;
+	font-family: 'Century Gothic';
+font-style: normal;
+font-weight: 700;
+font-size: 1.388vw;
+line-height:1.73611vw;
+color: #FFFFFF;
+}
+.scroll_mobile{
+	font-family: 'Century Gothic';
+font-style: normal;
+font-weight: 400;
+font-size: 1.111vw;
+line-height:1.3888vw;
+color: #FFFFFF!important;
+}
+.call{
+	height:1vw;
+	width:1vw;
+}
+.banner {
+	position: relative;
+	width: 100%;
+	height:46.85vw;
+	background-color: #046A38;
+}
+.banner img {
+	width: 67%;
+	height: 46.8vw;
+	position: relative;
+	top:-1.35vw;
+	margin-left:auto;
+	margin-right:auto;
+	display: flex;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	float: right;
+	top: 10px;
+	background: #FFA500;
+    border-radius: 3px;
+	z-index: 10;
+	text-align: center;
+	animation-duration: 7s;
+	border:none;
+	animation-iteration-count: 1;
+	font-family: 'Century Gothic';
+font-style: normal;
+font-weight: 700;
+font-size:1.3888vw;
+line-height:1.73611vw;
+color: #FFFFFF;
+padding:10px 20px;
+}
+
+
+.containerBannerArrowText {
+	font-family: 'Century Gothic';
+font-style: normal;
+font-weight: 700;
+font-size: 2.7777vw;
+line-height: 3.4vw;
+text-align: center;
+color: #868686;
+margin-top:3.8vw;
+}
+.quotes {
+	font-family: 'Cherry Swash';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 17px;
+	text-align: center;
+	color: #046A38;
+	width:6px;
+	height:170px;
+}
+.content-video {
+	color: #056B38;
+	font-family: DM Serif Display;
+	font-size: 40px;
+	text-align: center;
+	padding: 2.5em 0 0;
+}
+
+.runManContent {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 5.277vw;
+	line-height:9.1666vw;
+	color: #FF671F;
+	position: relative;
+	top: 4.5vw;
+}
+.run_man_img {
+	width:35.9722vw;
+    height: 28vw;
+	margin-left: 5vw;
+}
+.heading {
+	font-family: 'Century Gothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size:2.777vw;
+	line-height: 3.819444vw;
+	text-align: center;
+	color: #046A38;
+	margin-top: 6.29166vw;
+}
+.pcc_img{
+	width:37vw;
+	height:37vw;
+	margin-left: auto;
+	margin-right:auto;
+}
+.pccText {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2.222vw;
+	line-height: 3vw;
+	color: #5F5F5F;
+}
+#pccText{
+	/* position:absolute;
+	left:39.5%; */
+}
+#pccText1{
+	/* position:absolute;
+	left:9vw; */
+}
+
+.polticalHeadling {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 44px;
+	color: #2C2C2C;
+	position: relative;
+	left:1.13vw;	margin-top:8.33vw;
+}
+#political_text{
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 2.5vw;
+line-height: 3vw;
+color: #2C2C2C;
+
+}
+#res_block{
+background: #FFFFFF!important;
+border-radius: 10px!important;
+}
+.reaserchimg,.feature_img,.pac_img{
+	width:4.79166vw;
+	height:4.86111vw;
+}
+.headingElipse {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size:4.4444vw;
+	line-height:5.4166vw;
+	text-align: left;
+	padding-left: 15px;
+	background: linear-gradient(92.82deg, #046A38 2.46%, #FF671F 83.69%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+.headingDescription,#headingDescription3 {
+	font-family: 'Proxima Nova', sans-serif;
+	font-size: 1.25vw;
+	font-weight: 600;
+	line-height: 1.66666vw;
+	letter-spacing: 0em;
+	width: 24vw;
+	margin: 0px;
+	color: #656565;
+	text-align: left;
+}
+#headingElipse_pac,#headingElipse_gotv{
+	position: relative;
+    top: -15px!important;
+}
+.pac_description{
+	font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 1.25vw;
+float: left;
+line-height:1.52777vw;
+text-align: center;
+color: #F26727;
+width:400px!important;
+position: relative;
+right:5vw;
+top:-25px;
+}
+.gotv_description{
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.25vw;
+	float: left;
+	line-height:1.52777vw;
+	text-align: center;
+	color: #F26727;
+	position: relative;
+top:-25px;
+width:155px!important;
+
+}
+.dashboardHeading {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 3.33333vw;
+	line-height:4vw;
+	text-align: center;
+	color: #046A38;
+}
+
+.total_voter_block {
+	height:7.8vw;
+	width:auto;
+	margin-top: 40px;
+	background: #00C797;
+	border-radius: 3.34405px;
+	position: relative;
+}
+
+.total_voter_block_second {
+	height:7.8vw;
+	width:auto;
+		background: #FD7676;
+	border-radius: 3.34405px;
+	position: relative;
+	margin-top: 40px;
+}
+
+.total_voter_block_third {
+	height:7.8vw;
+	width:auto;	background: #F46DC6;
+	border-radius: 3.34405px;
+	margin-top: 40px;
+}
+
+.total_voter_block_fourth {
+	height:7.8vw;
+	width:auto;	background: #E4D75E;
+	border-radius: 3.34405px;
+	margin-top: 40px;
+}
+
+.centered {
+	color: #000;
+	transform: translate(0%, -165%);
+}
+.content_end {
+	position: relative;
+	bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.voter_count {
+	position: relative;
+	top:10px;
+	left: 16px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size:1.85780vw;
+	line-height:2.291666vw;
+	color: #263659;
+}
+.election_booth {
+	width: 100%;
+	margin-top: 20px;
+}
+.common_bg_voter{
+	height:90px;
+}
+.voters_text {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.16111vw;
+	line-height:1.3888vw;
+	color: #263659;
+	position: relative;
+	bottom: 80px;
+	left: 16px;
+}
+.dashboard_img {
+	/* height: 416.5px;
+	width: 555.06px; */
+}
+.voter_img {
+	position: relative;
+	right: 32px;
+	bottom: 10px;
+}
+.pie_chart {
+	width:auto;
+	width:33.47222vw;
+	height:18.680vw;
+	margin:40px 20px ;
+	background-color: #FFFFFF!important;
+}
+.heading-tomorrow {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2.22222vw;
+	line-height:3vw;
+	text-align: center;
+	color: #046A38;
+}
+.dashboard_img {
+	width: 46.33680vw;
+height: 28.819444vw;
+margin-left:auto;
+margin-right:auto;
+margin-top:3vw!important;
+}
+.tomorrowLeaderContent {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2.2222vw;
+	line-height:2.7vw;
+	text-align: center;
+	color: #585858;
+	width: 500px;
+	position: relative;
+	top:2.8166666vw;
+}
+.voter_turnout_block{
+	margin-top:8.33vw;
+	width:100%;
+}
+.voter_turnout {
+	width:45.6111vw;
+height:28.319vw;
+	margin-left: 25px;
+	background: #E5EFEA;
+
+} 
+.election_booth_img1 {
+	width:30.1131vw;
+	height:19.33vw;
+	display: flex;
+	margin-left:auto!important;
+	margin-right:auto!important;
+	position: relative;
+	top:2.3vw;
+} 
+
+.election_booth_img2 {
+	width: 10.479166vw;
+	height: 17.532638888vw;
+	display: flex;
+	margin-left:auto!important;
+	margin-right:auto!important;
+	position: relative;
+	top:3.3vw;
+} 
+ .election-text {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2.333vw;
+	line-height:4vw;
+	text-align: center;
+	color: #046A38;
+} 
+#election-text{
+	position: relative;
+	top:0vw;
+	
+}
+#election-text1{
+	position: relative;
+	top:2vw;
+} 
+
+.bg_why{
+	width: 97.3%!important;
+	background-color: #FFEBE1;
+	margin-right:20px!important;
+	margin-top:1vw;
+	height:47.152777vw;
+}
+
+.headingWhy {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size:4.444vw;
+	line-height:5.41666vw;
+	text-align: center;
+	color: #FF671F;
+	margin-top:3.472222vw;
+}
+.PCC_img{
+	margin-left: 8.26388vw;
+	margin-top:8.125vw;
+}
+
+.whyDescription {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size:2.22vw;
+	line-height:2.70833vw;
+	color: #585858;
+	margin-top:3.61vw;
+}
+#whyDescription2{
+	margin-top:.472vw;
+}
+.outh_cermany_block{
+background-color: white;
+margin-top:4vw;
+}
+.circle {
+	position: absolute;
+	width:1.875vw;
+	height:1.875vw;
+	background: #2E75B6;
+	border-radius: 50%;
+}
+.first_circle,.second_circles,.third_circle{
+    	margin: 2px 0px 0px -4rem;
+}
+.Descriptionoauth1,.Descriptionoauth2,.Descriptionoauth3 {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.6666vw;
+	line-height: 2.01388vw;
+	color: #656565;
+	margin-left: 19%;
+	width: 26vw;
+	text-align: left;
+	padding: 5rem 0rem 5rem 0rem;
+}
+#oath_img {
+	width: 35vw;
+	height:25.8333vw;
+	position: absolute;
+    left: 13vw;
+	padding-top:10vw;
+}
+
+.kumarWriting {
+	font-family: 'Bradley Hand ITC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.6666vw;
+	line-height:2vw;
+	margin-top: 150px;
+	padding: 2rem 0rem 0rem 0rem;
+	color: #000000;
+	padding-left:30px;
+}
+.kumarImage {
+	border-radius: 50%;
+	margin: 4.5rem 0 0 20rem;
+	width: 11.31944vw;
+	height:11.31944vw;
+	position: relative;
+	left: 1vw;
+}
+
+.kumarDescription {
+	padding: 2rem 0 0rem 21rem;
+}
+
+.kumarName {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size:1.6666vw;
+	line-height:1.875vw;
+	text-align: center;
+	color: #000000;
+}
+.chairman {
+	font-family: 'Century Gothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size:1.6666vw;
+	line-height:1.875vw;
+	text-align: center;
+	color: #046A38;
+	padding: 0rem 0rem 0rem 2.5rem;
+}
+.footerMain {
+	position: absolute;
+	width: 100%;
+	height:auto;
+	font-family:DM Serif Display;
+	overflow: hidden;
+	margin-top: -15px;
+	background: #3A3A3A;
+}
+.footerLogoMain {
+	margin: 1vw 0 0 4vw;
+}
+.footerLogoMain img{
+	width:8.19444vw;
+	height:8.19444vw;
+}
+.footerText {
+	float: left;
+}
+#footer_text1{
+	margin: 30% 0% 0% 30%;
+	width:30vw;
+	font-family: 'Century Gothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.972222vw;
+	line-height: 1.18vw;
+	color: #FFFFFF;
+}
+#footer_text2{
+	margin: 30% 0% 0% 50%;
+	width:30vw;
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.111;
+	line-height: 1.31944vw;
+	color: #FFFFFF;
+}
+#footer_text3{
+	margin: 30% 0% 0% 40%;
+	width:30vw;
+	font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 1.111;
+line-height: 1.31944vw;
+color: #FFFFFF;
+}
+
+#footer_text4{
+	margin: 30% 0% 0% 40%;
+	width:30vw;
+	font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 1.111;
+line-height: 1.31944vw;
+color: #FFFFFF;
+}
+#footer_text5{
+	margin: 10% 0% 0% -1vw;
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.111;
+	line-height: 1.31944vw;	
+	color: #FFFFFF;
+}
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: opacity 500ms;
+	visibility: visible;
+	opacity: 1;
+	overflow: auto;
+}
+.popup {
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	position: relative;
+	transition: all 5s ease-in-out;
+	text-align: center;
+	top: 5%;
+	width: 500px;
+	min-height: 600px;
+	margin: auto
+}
+
+.card-header {
+	background-color: #F26727;
+	border-radius: 5px;
+	border: solid 1px #5555555e;
+	color: white;
+	box-shadow: 0 0 10px rgb(0 0 0 / 16%);
+	-moz-box-shadow: 0 0 10px rgb(0 0 0 / 16%);
+	-webkit-box-shadow: 0 0 10px rgb(0 0 0 / 16%);
+	-o-box-shadow: 0 0 10px rgb(0 0 0 / 16%);
+}
+
+.modal-dialog {
+	max-width: 600px;
+	margin-top: 80px
+}
+
+#get_trained .modal-header {
+	background: #f5f5f5;
+	color: rgba(0, 0, 0, .87);
+	border-radius: 0;
+	border: 0;
+	padding: 15px 20px;
+	text-align: center;
+	display: block
+}
+
+#get_trained .modal-body {
+	padding: 35px
+}
+
+#get_trained .modal-title {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #056B38;
+	font-family: 'serif';
+	font-size: 48px;
+	text-align: center;
+	display: block;
+	text-align: center
+}
+
+#get_trained .close {
+	font-size: 36px !important;
+	position: absolute;
+	color: #e62a38 !important;
+	right: 40px;
+	opacity: 1;
+	border: none !important;
+	box-shadow: none;
+	transition: all ease .5s;
+	font-weight: 500;
+	padding: 0;
+	top: 26px
+}
+
+#get_trained label {
+	color: #33475b;
+	font-size: 15px;
+	display: block;
+	margin: 0;
+	font-weight: 500;
+	padding: 0 0 2px
+}
+
+#get_trained input,
+#get_trained select,
+#get_trained textarea {
+	display: block;
+	width: 100%;
+	height: 40px;
+	padding: 9px 10px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #33475b;
+	background-color: #fafafa;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin: 0 0 20px
+}
+
+#get_trained .btn {
+	background: #F26727 !important;
+	border: none;
+	border-radius: 3px;
+	padding: 8px 30px;
+	font-size: 18px;
+	display: block;
+	width: 100%;
+	margin: 18px 0 0;
+	text-transform: uppercase
+}
+
+.widgets_div {
+	padding: 22.85px 0;
+
+}
+
+.widgets_div .icon_div {
+	display: inline-block;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+
+.widgets_div .icon_div span i {
+	font-size: 24px;
+}
+
+.widgets_div .text_div {
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.widgets_div .text_div p {
+	color: #58666e;
+	font-family: 'Proxima Nova';
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+
+.widgets_div .text_div p+p {
+	color: #747F85;
+	font-family: ' Proxima Nova';
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	width: 500px;
+	height:170px;;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+
+margin-top:15px;
+margin-left:-180px;
+
+
+color: #3A3A3A;
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  .dropbar{
+	height:7vw;
+	width:3px;
+	margin-left:70px;
+  }
+  .dropdown_list{
+	margin:15px!important;
+  }
+  .dropdown_list li{
+	font-size: 1vw;;
+	line-height: 0.3vw;;
+	font-family: 'Century Gothic';
+	font-style: normal;
+	font-weight: 400;
+		margin: 0;
+		padding: 0.2em;
+	
+	
+  }
+  #asp{
+	padding-left:20px;
+  }
+  #cs{
+	position: relative;
+	top:100px;
+	right:214px;
+  }
+
+
+
+

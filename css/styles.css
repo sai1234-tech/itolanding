@@ -1,0 +1,3244 @@
+
+@font-face {
+	font-family: 'proxima_nova_rgregular';
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+		url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+		url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima_nova_rgbold';
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff') format('woff'),
+		url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf') format('truetype'),
+		url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'adelle_rgregular';
+	src: url('https://litmus.com/fonts/Emails/adelle_reg-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/adelle_reg-webfont.eot?#iefix') format('embedded-opentype'),
+		url('https://litmus.com/fonts/Emails/adelle_reg-webfont.woff') format('woff'),
+		url('https://litmus.com/fonts/Emails/adelle_reg-webfont.ttf') format('truetype'),
+		url('https://litmus.com/fonts/Emails/adelle_reg-webfont.svg#adelle_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+body {
+	font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+}
+
+.header {
+	background: #3A3A3A;
+	height: 5.2vw!important;
+}
+
+.top-nav {
+	float: right;
+}
+
+.top-nav-left {
+	margin: 0.5em 0 15em 10;
+	padding: 0 0 0 4.5em;
+}
+.top-nav-left ul {
+	padding: 0;
+	margin: 0em;
+}
+.top-nav-left li {
+	display: inline-block;
+	padding: 22px;
+	/* margin-right:4vw;	 */
+	margin-right:1vw;
+}
+.top-nav-left li a {
+	color: #515151;
+	text-decoration: none;
+}
+.top-nav-left li a:hover {
+	color: #add136;
+}
+.top-nav-right {
+	float: right;
+	margin: 1.5em 1.5em 2.5em 0px;
+}
+.top-nav-left span.menu {
+	display: none;
+}
+.top-nav-left span.menu:before {
+	content: url("../images/menu.png");
+	cursor: pointer;
+	width: 100%;
+}
+.bar_img{
+	height:3.125vw;
+	position: relative;
+	top:-5px;
+}
+.scroll {
+	text-align: left;
+	color: #ffffff !important;
+	font-family: 'Century Gothic';
+font-style: normal;
+font-weight: 700;
+font-size: 1.388vw;
+line-height:1.73611vw;
+color: #FFFFFF;
+}
+.scroll_mobile{
+	font-family: 'Century Gothic';
+font-style: normal;
+font-weight: 400;
+font-size: 1.111vw;
+line-height:1.3888vw;
+color: #FFFFFF!important;
+}
+.call{
+	height:1vw;
+	width:1vw;
+}
+.banner {
+	position: relative;
+	width: 100%;
+	height:46.85vw;
+	background-color: #046A38;
+}
+.banner img {
+	width: 67%;
+	height: 46.8vw;
+	position: relative;
+	top:-1.35vw;
+	margin-left:auto;
+	margin-right:auto;
+	display: flex;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	float: right;
+	top: 10px;
+	background: #FFA500;
+    border-radius: 3px;
+	z-index: 10;
+	text-align: center;
+	animation-duration: 7s;
+	border:none;
+	animation-iteration-count: 1;
+	font-family: 'Century Gothic';
+font-style: normal;
+font-weight: 700;
+font-size:1.3888vw;
+line-height:1.73611vw;
+color: #FFFFFF;
+padding:10px 20px;
+}
+
+@keyframes example {
+	0% {
+		background-color: #F26727;
+		left: 0px;
+		top: 0px;
+	}
+	25% {
+		background-color: #F26727;
+		left: 100%;
+		top: 0px;
+	}
+}
+.containerBannerArrowText {
+	font-family: 'Century Gothic';
+font-style: normal;
+font-weight: 700;
+font-size: 2.7777vw;
+line-height: 3.4vw;
+text-align: center;
+color: #868686;
+margin-top:3.8vw;
+}
+.quotes {
+	font-family: 'Cherry Swash';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 17px;
+	text-align: center;
+	color: #046A38;
+	width:6px;
+	height:170px;
+}
+.content-video {
+	color: #056B38;
+	font-family: DM Serif Display;
+	font-size: 40px;
+	text-align: center;
+	padding: 2.5em 0 0;
+}
+
+.runManContent {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 5.277vw;
+	line-height:9.1666vw;
+	color: #FF671F;
+	position: relative;
+	top: 4.5vw;
+}
+.run_man_img {
+	width:35.9722vw;
+    height: 28vw;
+	margin-left: 5vw;
+	/* margin-right: auto; */
+}
+.heading {
+	font-family: 'Century Gothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size:2.777vw;
+	line-height: 3.819444vw;
+	text-align: center;
+	color: #046A38;
+	margin-top: 6.29166vw;
+}
+.pcc_img{
+	width:37vw;
+	height:37vw;
+	margin-left: auto;
+	margin-right:auto;
+}
+.pccText {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2.222vw;
+	line-height: 3vw;
+	color: #5F5F5F;
+}
+#pccText{
+	/* position:absolute;
+	left:39.5%; */
+}
+#pccText1{
+	/* position:absolute;
+	left:9vw; */
+}
+
+.polticalHeadling {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 44px;
+	color: #2C2C2C;
+	position: relative;
+	left:1.13vw;	margin-top:8.33vw;
+}
+#political_text{
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 2.5vw;
+line-height: 3vw;
+color: #2C2C2C;
+
+}
+#res_block{
+background: #FFFFFF!important;
+border-radius: 10px!important;
+}
+.reaserchimg,.feature_img,.pac_img{
+	width:4.79166vw;
+	height:4.86111vw;
+}
+.headingElipse {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size:4.4444vw;
+	line-height:5.4166vw;
+	text-align: left;
+	padding-left: 15px;
+	background: linear-gradient(92.82deg, #046A38 2.46%, #FF671F 83.69%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+.headingDescription,#headingDescription3 {
+	font-family: 'Proxima Nova', sans-serif;
+	font-size: 1.25vw;
+	font-weight: 600;
+	line-height: 1.66666vw;
+	letter-spacing: 0em;
+	width: 24vw;
+	margin: 0px;
+	color: #656565;
+	text-align: left;
+}
+#headingElipse_pac,#headingElipse_gotv{
+	position: relative;
+    top: -15px!important;
+}
+.pac_description{
+	font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 1.25vw;
+float: left;
+line-height:1.52777vw;
+text-align: center;
+color: #F26727;
+width:400px!important;
+position: relative;
+right:5vw;
+top:-25px;
+}
+.gotv_description{
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.25vw;
+	float: left;
+	line-height:1.52777vw;
+	text-align: center;
+	color: #F26727;
+	position: relative;
+top:-25px;
+width:155px!important;
+
+}
+.dashboardHeading {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 3.33333vw;
+	line-height:4vw;
+	text-align: center;
+	color: #046A38;
+}
+
+.total_voter_block {
+	height:7.8vw;
+	width:auto;
+	margin-top: 40px;
+	background: #00C797;
+	border-radius: 3.34405px;
+	position: relative;
+}
+
+.total_voter_block_second {
+	height:7.8vw;
+	width:auto;
+		background: #FD7676;
+	border-radius: 3.34405px;
+	position: relative;
+	margin-top: 40px;
+}
+
+.total_voter_block_third {
+	height:7.8vw;
+	width:auto;	background: #F46DC6;
+	border-radius: 3.34405px;
+	margin-top: 40px;
+}
+
+.total_voter_block_fourth {
+	height:7.8vw;
+	width:auto;	background: #E4D75E;
+	border-radius: 3.34405px;
+	margin-top: 40px;
+}
+
+.centered {
+	color: #000;
+	transform: translate(0%, -165%);
+}
+.content_end {
+	position: relative;
+	bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.voter_count {
+	position: relative;
+	top:10px;
+	left: 16px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size:1.85780vw;
+	line-height:2.291666vw;
+	color: #263659;
+}
+.election_booth {
+	width: 100%;
+	margin-top: 20px;
+}
+.common_bg_voter{
+	height:90px;
+}
+.voters_text {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.16111vw;
+	line-height:1.3888vw;
+	color: #263659;
+	position: relative;
+	bottom: 80px;
+	left: 16px;
+}
+.dashboard_img {
+	/* height: 416.5px;
+	width: 555.06px; */
+}
+.voter_img {
+	position: relative;
+	right: 32px;
+	bottom: 10px;
+}
+.pie_chart {
+	width:auto;
+	width:33.47222vw;
+	height:18.680vw;
+	margin:40px 20px ;
+	background-color: #FFFFFF!important;
+}
+.heading-tomorrow {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2.22222vw;
+	line-height:3vw;
+	text-align: center;
+	color: #046A38;
+}
+.dashboard_img {
+	width: 46.33680vw;
+height: 28.819444vw;
+margin-left:auto;
+margin-right:auto;
+margin-top:3vw!important;
+}
+.tomorrowLeaderContent {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2.2222vw;
+	line-height:2.7vw;
+	text-align: center;
+	color: #585858;
+	width: 500px;
+	position: relative;
+	top:2.8166666vw;
+}
+.voter_turnout_block{
+	margin-top:8.33vw;
+	width:100%;
+}
+.voter_turnout {
+	width:45.6111vw;
+height:28.319vw;
+	margin-left: 25px;
+	background: #E5EFEA;
+
+} 
+.election_booth_img1 {
+	width:30.1131vw;
+	height:19.33vw;
+	display: flex;
+	margin-left:auto!important;
+	margin-right:auto!important;
+	position: relative;
+	top:2.3vw;
+} 
+
+.election_booth_img2 {
+	width: 10.479166vw;
+	height: 17.532638888vw;
+	display: flex;
+	margin-left:auto!important;
+	margin-right:auto!important;
+	position: relative;
+	top:3.3vw;
+} 
+ .election-text {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2.333vw;
+	line-height:4vw;
+	text-align: center;
+	color: #046A38;
+} 
+#election-text{
+	position: relative;
+	top:0vw;
+	
+}
+#election-text1{
+	position: relative;
+	top:2vw;
+} 
+
+.bg_why{
+	width: 97.3%!important;
+	background-color: #FFEBE1;
+	margin-right:20px!important;
+	margin-top:1vw;
+	height:47.152777vw;
+}
+
+.headingWhy {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size:4.444vw;
+	line-height:5.41666vw;
+	text-align: center;
+	color: #FF671F;
+	margin-top:3.472222vw;
+}
+.PCC_img{
+	margin-left: 8.26388vw;
+	margin-top:8.125vw;
+}
+
+.whyDescription {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size:2.22vw;
+	line-height:2.70833vw;
+	color: #585858;
+	margin-top:3.61vw;
+}
+#whyDescription2{
+	margin-top:.472vw;
+}
+.outh_cermany_block{
+background-color: white;
+margin-top:4vw;
+}
+.circle {
+	position: absolute;
+	width:1.875vw;
+	height:1.875vw;
+	background: #2E75B6;
+	border-radius: 50%;
+}
+.first_circle,.second_circles,.third_circle{
+    	margin: 2px 0px 0px -4rem;
+}
+.Descriptionoauth1,.Descriptionoauth2,.Descriptionoauth3 {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.6666vw;
+	line-height: 2.01388vw;
+	color: #656565;
+	margin-left: 19%;
+	width: 26vw;
+	text-align: left;
+	padding: 5rem 0rem 5rem 0rem;
+}
+#oath_img {
+	width: 35vw;
+	height:25.8333vw;
+	position: absolute;
+    left: 13vw;
+	padding-top:10vw;
+}
+
+.kumarWriting {
+	font-family: 'Bradley Hand ITC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.6666vw;
+	line-height:2vw;
+	margin-top: 150px;
+	padding: 2rem 0rem 0rem 0rem;
+	color: #000000;
+	padding-left:30px;
+}
+.kumarImage {
+	border-radius: 50%;
+	margin: 4.5rem 0 0 20rem;
+	width: 11.31944vw;
+	height:11.31944vw;
+	position: relative;
+	left: 1vw;
+}
+
+.kumarDescription {
+	padding: 2rem 0 0rem 21rem;
+}
+
+.kumarName {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size:1.6666vw;
+	line-height:1.875vw;
+	text-align: center;
+	color: #000000;
+}
+.chairman {
+	font-family: 'Century Gothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size:1.6666vw;
+	line-height:1.875vw;
+	text-align: center;
+	color: #046A38;
+	padding: 0rem 0rem 0rem 2.5rem;
+}
+.footerMain {
+	position: absolute;
+	width: 100%;
+	height:auto;
+	font-family:DM Serif Display;
+	overflow: hidden;
+	margin-top: -15px;
+	background: #3A3A3A;
+}
+.footerLogoMain {
+	margin: 1vw 0 0 4vw;
+}
+.footerLogoMain img{
+	width:8.19444vw;
+	height:8.19444vw;
+}
+.footerText {
+	float: left;
+}
+#footer_text1{
+	margin: 30% 0% 0% 30%;
+	width:30vw;
+	font-family: 'Century Gothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.972222vw;
+	line-height: 1.18vw;
+	color: #FFFFFF;
+}
+#footer_text2{
+	margin: 30% 0% 0% 50%;
+	width:30vw;
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.111;
+	line-height: 1.31944vw;
+	color: #FFFFFF;
+}
+#footer_text3{
+	margin: 30% 0% 0% 40%;
+	width:30vw;
+	font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 1.111;
+line-height: 1.31944vw;
+color: #FFFFFF;
+}
+
+#footer_text4{
+	margin: 30% 0% 0% 40%;
+	width:30vw;
+	font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 1.111;
+line-height: 1.31944vw;
+color: #FFFFFF;
+}
+#footer_text5{
+	margin: 10% 0% 0% -1vw;
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.111;
+	line-height: 1.31944vw;	
+	color: #FFFFFF;
+}
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: opacity 500ms;
+	visibility: visible;
+	opacity: 1;
+	overflow: auto;
+}
+.popup {
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	position: relative;
+	transition: all 5s ease-in-out;
+	text-align: center;
+	top: 5%;
+	width: 500px;
+	min-height: 600px;
+	margin: auto
+}
+
+.card-header {
+	background-color: #F26727;
+	border-radius: 5px;
+	border: solid 1px #5555555e;
+	color: white;
+	box-shadow: 0 0 10px rgb(0 0 0 / 16%);
+	-moz-box-shadow: 0 0 10px rgb(0 0 0 / 16%);
+	-webkit-box-shadow: 0 0 10px rgb(0 0 0 / 16%);
+	-o-box-shadow: 0 0 10px rgb(0 0 0 / 16%);
+}
+
+.modal-dialog {
+	max-width: 600px;
+	margin-top: 80px
+}
+
+#get_trained .modal-header {
+	background: #f5f5f5;
+	color: rgba(0, 0, 0, .87);
+	border-radius: 0;
+	border: 0;
+	padding: 15px 20px;
+	text-align: center;
+	display: block
+}
+
+#get_trained .modal-body {
+	padding: 35px
+}
+
+#get_trained .modal-title {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #056B38;
+	font-family: 'serif';
+	font-size: 48px;
+	text-align: center;
+	display: block;
+	text-align: center
+}
+
+#get_trained .close {
+	font-size: 36px !important;
+	position: absolute;
+	color: #e62a38 !important;
+	right: 40px;
+	opacity: 1;
+	border: none !important;
+	box-shadow: none;
+	transition: all ease .5s;
+	font-weight: 500;
+	padding: 0;
+	top: 26px
+}
+
+#get_trained label {
+	color: #33475b;
+	font-size: 15px;
+	display: block;
+	margin: 0;
+	font-weight: 500;
+	padding: 0 0 2px
+}
+
+#get_trained input,
+#get_trained select,
+#get_trained textarea {
+	display: block;
+	width: 100%;
+	height: 40px;
+	padding: 9px 10px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #33475b;
+	background-color: #fafafa;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin: 0 0 20px
+}
+
+#get_trained .btn {
+	background: #F26727 !important;
+	border: none;
+	border-radius: 3px;
+	padding: 8px 30px;
+	font-size: 18px;
+	display: block;
+	width: 100%;
+	margin: 18px 0 0;
+	text-transform: uppercase
+}
+
+.widgets_div {
+	padding: 22.85px 0;
+
+}
+
+.widgets_div .icon_div {
+	display: inline-block;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+
+.widgets_div .icon_div span i {
+	font-size: 24px;
+}
+
+.widgets_div .text_div {
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.widgets_div .text_div p {
+	color: #58666e;
+	font-family: 'Proxima Nova';
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+
+.widgets_div .text_div p+p {
+	color: #747F85;
+	font-family: ' Proxima Nova';
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	width: 500px;
+	height:170px;;
+	/* width:auto; */
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	/* padding: 12px 16px; */
+	z-index: 1;
+/* font-size: 20px;
+line-height: 25px; */
+margin-top:15px;
+margin-left:-180px;
+/* identical to box height */
+
+
+color: #3A3A3A;
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  .dropbar{
+	height:7vw;
+	width:3px;
+	margin-left:70px;
+  }
+  .dropdown_list{
+	margin:15px!important;
+  }
+  .dropdown_list li{
+	font-size: 1vw;;
+	line-height: 0.3vw;;
+	font-family: 'Century Gothic';
+	font-style: normal;
+	font-weight: 400;
+		margin: 0;
+		padding: 0.2em;
+	
+	
+  }
+  #asp{
+	padding-left:20px;
+	/* padding-top:10px */
+  }
+  #cs{
+	position: relative;
+	top:100px;
+	right:214px;
+  }
+
+@media screen and (device-width:1920){
+	.dropdown {
+		/* position: relative;
+		display: inline-block; */
+	  }
+	  
+	  .dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		width: 700px;
+		height:223px;;
+		/* width:auto; */
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		/* padding: 12px 16px; */
+		z-index: 1;
+	/* font-size: 20px;
+	line-height: 25px; */
+	margin-top:37px;
+	margin-left:-180px;
+	/* identical to box height */
+	
+	
+	color: #3A3A3A;
+	  }
+	  
+	  .dropdown:hover .dropdown-content {
+		display: block;
+	  }
+	  .dropbar{
+		height:7vw;
+		width:3px;
+		margin-left:90px;
+	  }
+	  .dropdown_list{
+		margin:15px!important;
+	  }
+	  .dropdown_list li{
+		font-size: 1vw;;
+		line-height: 0.3vw;;
+		font-family: 'Century Gothic';
+		font-style: normal;
+		font-weight: 400;
+			margin: 0;
+			padding: 0.2em;
+		
+		
+	  }
+	  #asp{
+		padding-left:20px;
+		/* padding-top:10px */
+	  }
+	  #cs{
+		position: relative;
+		top:160px;
+		right:325px;
+	  }
+	.banner {
+		position: relative;
+		width: 100%;
+		height:46.85vw;
+		background-color: #046A38;
+	}
+	.banner img {
+		width: 67%;
+		height: 46.8vw;
+		position: relative;
+		top:-0.2vw;
+		margin-left:auto;
+		margin-right:auto;
+		display: flex;
+	}
+	.containerBannerArrowText{
+		font-size: 2vw;
+	}
+	.content-video {
+	}
+	#video{
+		width:auto;
+		/* display: flex; */
+
+	}
+	.runManContent {
+		font-family: 'DM Serif Display';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 4.8vw;
+		line-height:6.875vw;
+		color: #FF671F;
+		position: relative;
+		top: 5.5vw;
+		right:13.85vw;
+
+	}
+	.run_man_img {
+		width:26.9722vw;
+		height: 21vw;
+		position: relative;
+		top: 4.5vw;
+		left:11.35vw;
+	}
+	.heading{
+		font-size: 2vw;
+	}
+	.pcc_img{
+		width:27.815vw;
+		height:auto;
+	}
+	.pccText{
+		font-size: 1.666vw;
+		text-align: center;
+		align-items: center;
+
+	}
+	.polticalHeadling{
+		margin-left:2vw;
+	}
+	#political_text{
+		font-size: 1.875vw;
+	}
+	.res_search{
+	}
+	.reaserchimg{
+		width:3.59vw;
+		height:3.64vw;
+		margin-left:30px;
+	}
+	.headingElipse{
+		margin-left:-10px;
+		font-size: 3.333vw;
+	}
+	.headingElipse_research{
+		position: relative;
+		top: -15px!important;
+	}
+	.headingDescription{
+		font-size: 1vw;
+		margin-left:1.5vw;
+		margin-top: -1.5vw;;
+	}
+	.feature_img{
+		width:3.59vw;
+		height:3.64vw;
+		margin-left:30px;
+	}
+	.headingElipse_strategy{
+		position: relative;
+		top:-15px!important;
+	}
+	.headingElipse_connect{
+		position: relative;
+		top:-15px!important;
+	}
+	.pac_block{
+		margin-top:3vw;
+	}
+	.pac_img{
+		width:3.59vw;
+		height:3.64vw;
+		/* margin-left:30px; */
+	}
+	#headingElipse_pac{
+       left:-60px;
+	   position: relative;
+	   top:-30px!important;;
+	}
+	
+   .pac_description{
+	margin-left:1.5vw;
+	position: relative;
+	top:-60px!important;;
+	font-size: 0.9375vw;
+
+   }
+   #headingDescription_pac{
+	position: relative;
+	right:1.5vw;
+	top:-1vw;
+   }
+   .gotv_block{
+	margin-top:3vw;
+}
+#headingElipse_gotv{
+	left:-30px;
+	position: relative;
+	top:-28px!important;;
+ }
+ 
+	.gotv_description{
+		margin-left:vw;
+	position: relative;
+	top:-54px!important;;
+	font-size: 0.9375vw;
+	}
+	.heading_description_gotv{
+		position: relative;
+		right:1.2vw!important;
+		top:-1vw;
+	   }
+#dashboard_block{
+	/* background-color: red!important; */
+	width:auto;
+	position: relative;
+	/* right:3.8vw; */
+}
+.total_voter_block {
+	
+	height:5.78vw;
+	width:17.11vw;
+	margin-top: 40px;
+	background: #00C797;
+	border-radius: 3.34405px;
+	position: relative;
+	left:14vw;
+}
+
+.total_voter_block_second {
+	left: 8vw !important;;
+	height:5.78vw;
+	width:17.11vw;
+		background: #FD7676;
+	border-radius: 3.34405px;
+	position: relative;
+	margin-top: 40px;
+}
+
+.total_voter_block_third {
+	position: relative;
+	left:2vw;
+	height:5.78vw;
+	width:17.11vw;
+		background: #F46DC6;
+	border-radius: 3.34405px;
+	margin-top: 40px;
+}
+
+.total_voter_block_fourth {
+	position: relative;
+	right:4vw;
+		height:5.78vw;
+	width:17.11vw;
+		background: #E4D75E;
+	border-radius: 3.34405px;
+	margin-top: 40px;
+}
+
+.chart_block{
+	margin-top:2vw;
+}
+.centered {
+	color: #000;
+	transform: translate(0%, -165%);
+}
+.content_end {
+	position: relative;
+	bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.voters_text {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1vw;
+	line-height:1.3888vw;
+	color: #263659;
+	position: relative;
+	bottom: 5.3vw;
+	left: 16px;
+}
+.voter_count {
+	position: relative;
+	top:-10px;
+	left: 16px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size:1.35vw;
+	line-height:2.291666vw;
+	color: #263659;
+}
+
+.common_bg_voter{
+	/* height:90px; */
+	width:5.26vw;
+	height:auto;
+}
+
+.voter_img {
+	position: relative;
+	right: 32px;
+	width:4.18vw;
+	height:2.82vw;
+	bottom: 30px;
+}
+.election_booth_img1{
+	width:22.58vw;
+	height:15.486vw;
+}
+.election_booth_img2{
+	width:7.8593758vw;
+	height:15vw;
+}
+#election-text{
+	margin-top:4vw;
+	font-size: 2.5vw;
+}
+#election-text1{
+	margin-top:2vw;
+	font-size: 2.5vw;
+}
+.pie_chart{
+	width:30.4375vw!important;
+	height:13vw;
+}
+.heading-tomorrow{
+	font-size: 2.5vw;
+}
+.dashboard_img{
+	width:34.7526vw;
+	height:21.61458vw;
+}
+.tomorrowLeaderContent{
+	font-size: 1.6666vw;
+}
+.voter_turnout{
+  height:25.9375vw;
+  width:auto;
+}
+.election_booth {
+	width: 100%;
+	margin-top: 20px;
+}
+.pie_chart {
+	width:auto;
+	width:33.47222vw;
+	height:18.680vw;
+	margin:40px 20px ;
+	background-color: #FFFFFF!important;
+}
+#pie_chart1{
+ position: relative;
+ right:3vw;
+}
+.dashboard_img {
+	height:21.614vw;
+	width: 34.7526vw;
+}
+.bg_why{
+	position: relative;
+	/* right:1.2vw; */
+	left:0.2vw;
+	width:97vw!important;
+}
+.headingWhy{
+	font-size: 3.333vw;
+}
+.PCC_img{
+	width:17.3958vw;
+	height:16.5625vw;
+}
+.whyDescription{
+	font-size: 1.666vw;
+	width:36vw;
+}
+.oath_desc_bloxk{
+	position: relative;
+	right:14vw
+}
+.circle{
+	width:1.4vw;
+	height:1.4vw;
+}
+.Descriptionoauth1,.Descriptionoauth2,.Descriptionoauth3{
+	font-size: 1.25vw;
+	width:20vw;
+}
+.oath_img{
+	 width:33.75vw;
+	 height:19.375vw;
+}
+.kumarWriting{
+	position: relative;
+	right:10vw;
+	width:40vw;
+	font-size: 1.25vw;;
+}
+.kumarImage{
+	position: relative;
+	left:13.44vw;
+	margin-top:4vw;
+
+}
+.kumarDescription{
+	position: relative;
+	left:14vw;
+
+}
+.kumarName{
+	font-size: 1.25vw;
+}
+.chairman{
+	font-size: 1vw;;
+	position: relative;
+	left:1vw;
+
+}
+.footerLogoMain img{
+	width:6.145vw;
+	height:6.145vw;
+	margin-top:1.5vw;
+}
+#footer_text1{
+	font-size: 0.729166vw;
+}
+.footerText{
+	font-size: 0.833vw;
+}
+
+ }
+
+
+@media screen and (max-width:767px) {
+	html, body {
+		overflow-x: hidden;
+	  }
+	 body {
+		width:100%;
+	  }
+
+	.header {
+		background: #3A3A3A;
+		height: 19.16vw!important;
+		
+	}
+	.top-nav-left ul li {
+		display: block;
+		float: none;
+		margin: 0em;
+		padding: 0.6em 0;
+		text-align: center;
+	}
+	.top-nav-left ul li a {
+		color: #3A3A3A;
+	}
+	.top-nav-left ul li a:hover {
+		color: #000;
+	}
+	.top-nav-left ul {
+		display: none;
+		background: #3A3A3A;
+		/* background-color: yellow; */
+		position: absolute;
+		width: 100%;
+		z-index: 999;
+		left: 0%;
+		margin: 0.7em 0em;
+		margin-top: -20px;
+	}
+	.top-nav-left span.menu {
+		display: block;
+		width: 100%;
+		position: relative;
+		padding: 0.8em 1em;
+	}
+	.scroll {
+		text-align: left;
+		font-family: 'Century Gothic';
+	    font-style: normal;
+	font-weight: 400;
+	font-size:5vw;
+	line-height:6.1111vw;
+	color: #FFFFFF;
+	}
+	.scroll_mobile{
+		font-family: 'Century Gothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size:5vw;
+	line-height:6.1111vw;
+	color: #FFFFFF!important;
+	}
+	.call{
+		height:4.63vw;
+		width:4.63vw;
+	}
+
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	  }
+	  
+	  .dropdown-content {
+		background: none!important;
+		display: none;
+		position: absolute;
+		/* background-color: #f9f9f9; */
+		/* background-color: red!important; */
+		width: 260px;
+		height:80px;;
+    	margin-left:-100px!important;
+		margin-top:-10px!important;
+	     color: #3A3A3A;
+		}
+	   
+	  
+	  .dropdown:hover .dropdown-content {
+		display: block;
+	  }
+	  .dropbar{
+
+		height:5vw;
+		width:3px;
+		margin-left:0px;
+		margin-top:0px!important;
+	  }
+	  .dropdown_list{
+		margin:15px!important;
+	  }
+	  .dropdown_list li{
+	/* background-color: red;; */
+		font-size: 2.5vw;;
+		color:#FFFFFF;
+		width:235px;
+        background-color: white;
+		color:black;
+		line-height: 0.3vw;;
+		font-family: 'Century Gothic';
+		font-style: normal;
+		font-weight: 400;
+			/* margin: 0; */
+			/* padding: 0.2em; */
+		
+		
+	  }
+	  #vcc_list{
+		/* background-color: white; */
+	  }
+	  #asp{
+		padding-left:20px;
+		margin-top:0px;
+		/* padding-top:10px */
+	  }
+	  #cs{
+		/* display: none; */
+		position: relative;
+		top:0px!important;
+		left:0px;
+	  }
+	
+	.banner {
+		position: relative;
+		width: 100%;
+		top:-2vw;
+	}
+	.banner img {
+		width: 100%;
+		height: auto;
+		position: relative;
+		top:-2vw;
+	}
+	.sticky {
+		position: -webkit-sticky !important;
+		position: sticky;
+		float: right;
+		top: 40px;
+		background: #FFA500;
+		border-radius: 3px;
+		z-index: 10;
+		text-align: center;
+		animation-duration: 7s;
+		border:none;
+		animation-iteration-count: 1;
+		font-family: 'Century Gothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size:4vw;
+	line-height:6.1111vw;
+	color: #FFFFFF;
+	padding:10px 20px;
+	}
+	.containerBannerArrowText {
+		font-family: 'Century Gothic';
+		font-style: normal;
+		text-align: center;
+		color: #868686;
+		position: relative;
+		width: 99%;
+		margin-top: 20vw;
+		font-weight: 600;
+        font-size: 3.888vw;
+        line-height:4.7222vw;
+	}
+	.quotes {
+		font-family: 'Cherry Swash';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 30px;
+		line-height: 17px;
+		text-align: center;
+		color: #046A38;
+	}
+    .quotes2 {
+		position: relative;
+		left: 0% !important;
+		top:10px;
+	}
+	.content_video_Section{
+		margin-top:-80px;
+	}
+	#content-video span{
+		bottom: 320px;
+		left: 6px;
+		font-weight: 600;
+        font-size:3.3vw;
+        line-height:4.7222vw;
+	}
+	#run_man_block {
+		position: relative;
+		bottom: 40px;
+		text-align: center;
+	}
+	#runManContent {
+		font-size: 10vw;
+		font-weight: 600;
+		line-height: 20.11vw;
+	}
+	#run_man_img{
+		margin-top: 30vw!important;
+		width:75vw!important;
+		height:60vw!important;
+		margin: 6rem 5rem 3rem 1rem;
+	}
+     .heading{
+		font-weight: 500;
+        font-size: 5.888vw;
+        line-height:4.7222vw;
+		position: relative;
+		width:100%;
+		top:-30vw;
+	 }
+	.pcc_img {
+		width:60vw!important;
+		height:60vw!important;
+		display: block;
+		margin-left:auto;
+		margin-right:auto;
+		position: relative;
+		top:-30vw;
+	}
+	#pccText {
+		position: absolute;
+		font-weight: 500;
+        font-size:4.5vw;
+        line-height:6.555vw;
+		margin: -13rem 0rem 0rem -8rem !important;
+	}
+	#pccText1{
+		font-weight: 500;
+        font-size:4.5vw;
+        line-height:5.555vw;
+		position: relative;
+		left:0px!important;;
+		width:100%;
+		}
+    .polticalHeadling{
+		margin-top: -35vw!important;
+		padding: 8rem 0rem 8rem 11px !important;
+	}
+	#political_text {
+		font-size:4.8vw;
+		min-width:90vw;
+		float:left;
+		position: relative;
+		font-weight: 600;
+		right:20px;
+	}
+	#res_block {
+		margin-top: -40px;
+		position: relative;
+		right: 48% !important;
+	}
+    .res_search img{
+		position: relative;
+		width:30%;
+		height:30%;
+		margin: 1rem 0rem 2rem 12rem;
+	}
+	.res_search {
+		position: absolute;
+		left: 15%
+	}
+	.headingElipse{
+		font-size: 6.9vw;
+		font-weight: 600;
+		position: relative;
+		margin: 0rem 1rem 0rem 10.5rem;
+	}
+	.headingDescription {
+		font-size:4.444vw;
+		font-weight: 400;
+		line-height: 6vw;
+		padding:20px;
+		width:95vw;
+		margin: -1rem 1rem 1rem 1rem;
+	}
+	.strategy_block{
+		margin-top:20px;
+	}
+	.headingElipse_strategy{
+		margin-left:67%;
+	}
+	.feature_img{
+		position: relative;
+		left:0%;
+		margin: 0rem 0rem 0rem 16.5rem;
+		width:30%;
+		height:30%;
+		padding: 1rem 0rem 3rem 0rem;
+	}
+	.connect_block{
+		margin-top:20px;
+	}
+	.headingElipse_connect{
+		font-size: 6.9vw;
+		font-weight: 600;
+		position: relative;
+		left:16%;
+	}
+	#headingDescription{
+		font-size:4.444vw;
+		font-weight: 400;
+		line-height: 6vw;
+		position: relative;
+		width:95vw;
+		padding:20px;
+		margin: 0rem 0rem 0rem 4.6rem;
+	}
+	.headingDescription3{
+		font-size:4.444vw!important;
+		font-weight: 400!important;
+		line-height: 6vw!important;
+		position: relative;
+		width:95vw!important;
+		left: 45px!important;;
+		padding:20px;
+	}
+	.pac_block{
+		margin-top:10px;
+	}
+	.pac_img{
+		position: relative;
+		left:61%;
+		width:30%;
+		height:30%;
+	}
+	.headingElipse_pac{
+		font-size: 6.9vw;
+		font-weight: 600;
+		position: relative;
+		left:47%;
+	}
+	#headingElipse_pac{
+		margin-top:35px!important;
+		position: absolute;
+	}
+	#headingDescription_pac{
+		position: relative;
+		font-size:4.444vw!important;
+		font-weight: 400!important;
+		line-height: 6vw!important;
+		left: 80px!important;;
+		padding:20px;
+		top:-40px;
+	}
+	.pac_description{
+				width:60vw!important;
+		font-size:3.444vw!important;
+		font-weight: 400!important;
+		margin: 8rem 0rem 2rem 16.5rem;
+	}
+	.headingElipse_gotv{
+		font-size: 6.9vw;
+		font-weight: 600;
+		position: relative;
+		left:42%;		
+	}
+	#headingElipse_gotv{
+		margin-top:25px!important;
+		position: absolute;
+	}
+	.gotv_description{
+		width:60vw!important;
+		font-size:3.444vw!important;
+		font-weight: 400!important;
+		/* margin-left:80px;
+		margin-top:55px; */
+		margin: 8rem 0rem 2rem 14.8rem;
+	}
+	
+	.heading_description_gotv{
+		position: relative;
+		left:24vw;
+		top:-40px;
+	}
+	.dashboardHeading{
+		font-size: 15px;
+		font-weight: 500;
+		position: relative;
+		width:98vw;
+		right:20px;
+		top:-20vw;
+	}
+	#dashboard_block{
+		margin-top:-29vw!important;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.total_voter_block,
+	.total_voter_block_second,
+	.total_voter_block_third,
+	.total_voter_block_fourth{
+       width:100%;
+	   height:28vw;
+	}
+	.voters_text{
+		font-size: 6vw;
+		line-height: 5vw;
+		margin-top:25px;
+	}
+	.common_bg_voter{
+		height:25vw;
+	}
+	.voter_count{
+		font-size: 5vw;
+		line-height: 5vw;
+		margin-top: 10px;;
+	}
+    .voter_img{
+		height:10vw;
+     margin-top:10px;
+	}
+    .chart_block{
+		margin-top:30px;
+	}
+	#chart1 {
+		width: 90%!important;
+		height:90%;
+		margin:20px 0px;
+	}
+
+	.heading-tomorrow span {
+		font-size:4vw!important;
+		font-weight: 600;
+		margin-left:10%;
+		line-height:7vw;
+		margin:0;
+		padding:0
+	}
+	.dashboard_img {
+		width: 90%;
+		height: 100%;
+	}
+	#tomorrowLeaderContent {
+		font-size: 4.5vw;
+		line-height: 7vw;
+		font-weight: 600;
+		width:100%;
+	}
+	.voter_turnout{
+		width: 87vw !important;;
+		height:80vw;	
+		margin-left: 20px;
+	}
+	.election_booth_img1 {
+		width: 60vw;
+		height: 60vw;
+		position: absolute;
+		right: 17%;
+		top:10px;
+	}
+	#voter_turnout2 {
+		margin-top: 30px;
+		width: 87vw !important;;
+		height:80vw;
+	}
+	#election_booth_img2 {
+		width: 50vw;
+		height: 60vw;
+		position: absolute;
+		right: 20%;
+		top:20px;
+	}
+	.election-text {
+		font-weight: 500;
+		font-size: 6vw;
+		line-height: 20px;	
+		margin-left:15vw;
+		position: absolute;
+		/* top:100px; */
+	}
+	#election-text{
+		position: absolute;
+	    top:195px; 
+	}
+	#election-text1 {
+		padding-top: 197px;
+		font-weight: 500;
+		font-size: 6vw;
+		position: relative;
+		margin-left:0vw;
+		line-height: 20px;
+		}
+		#why_block {
+			margin: 1rem 1rem 1rem 0rem !important;
+		}
+	.bg_why{
+		width: 89% !important;
+        margin-top:20px;
+		height:auto;
+		margin-left: 20px!important;
+	}
+	#headingWhy {
+		font-size:6.9444vw;
+		line-height:5.555vw;
+		font-weight: 500;
+		margin-top:7vw;
+	}
+	.PCC_img {
+		width: 80%;
+		height: 80%;
+		margin-top:13vw!important;
+		position: relative;
+		right:5%;
+	}
+	.whyDescription {
+		font-weight: 500;
+        font-size:5.555vw!important;
+        line-height:8.3333vw;
+		position: relative;
+		}
+	.outh_cermany_block{
+
+	}
+    .circle{
+		width:5vw;
+		height:5vw;
+		position: absolute;	}
+	.first_circle{
+		position: absolute;
+		left: 0% !important;;
+	}
+	.Descriptionoauth {
+		font-weight: 500;
+        font-size: 4.8888vw;
+        line-height: 5.555vw;
+		width: 70vw;
+		position: relative;
+		}
+	 .edu_oath {
+		position: relative;
+		right: 13%;
+		top:-40px;
+	}
+	.second_circles{
+		position: absolute;
+		left: 1% !important;;
+	} 
+	 .Descriptionoauth2 {
+		font-weight: 500;
+        font-size: 4.8888vw;
+        line-height: 5.555vw;
+		width: 75vw;
+		left: 39px !important;;
+		padding: 3rem 3rem 3rem 0px;
+		
+	}
+	.cermany_block {
+		position: relative;
+		right: 10%;
+		top:-90px;
+	} 
+	.third_circle{
+		position: absolute;
+		left:0.5%;
+	}
+	.Descriptionoauth3{
+		font-weight: 500;
+        font-size: 4.8888vw;
+        line-height: 5.555vw;
+		width: 70vw;
+		left: 31px;;
+	}
+	#oath_img {
+		height: 100% !important;
+		width: 80%;
+		position: relative;
+		right:0%;
+		top:-90px;
+	}
+	#kumar_bg_img{
+	}
+    .kumarWriting{
+		font-weight: 500;
+        font-size: 4vw;
+        line-height: 7vw;
+	    padding:0;
+	      margin: 20px;
+      }
+	.kumarImage {
+		border-radius: 50%;
+		margin: 0rem 0 0 8.5rem !important;
+		height:40%;
+		width:40%;
+	}
+    .kumarName{
+		position: absolute;
+		right:28%;
+		/* margin-right:25px; */
+		font-weight: 500;
+        font-size: 4.5vw;
+        line-height: 7vw;
+		margin: -1rem 2rem 3rem 0rem;
+	}
+	.chairman{
+		position: absolute;
+		right:41%;
+		font-weight: 500;
+        font-size: 4vw;
+        line-height: 7vw;
+		margin: 0rem 0rem 0rem 1rem;
+	}
+	#footerMain {
+		height: 500px!important;;
+		margin: 0rem 0rem 0rem 0rem;
+	}
+   .footerLogoMain img{
+	  position: relative;
+	  top:10vw;
+	  left:25%;
+	  height:40%;
+		width:40%;
+   }
+   #footer_text1{
+	font-size: 4vw;
+	line-height: 5vw;
+	width:88vw;
+	position: relative;
+	right:5%;
+	top:-10vw;
+   }
+   #footer_text2{
+	font-size: 4vw;
+	line-height: 5vw;
+	width:40vw;
+	position: relative;
+	right:45%;
+	top:-30vw;
+
+   }
+   #footer_text3{
+	font-size: 4vw;
+	line-height: 5vw;
+	width:50vw;
+	position: relative;
+	left:13%;
+	top:-80vw;
+   }
+   #footer_text4{
+	font-size: 4vw;
+	line-height: 5vw;
+	width:40vw;
+	position: relative;
+	right:35%;
+	top:-105.5vw;
+
+   }
+   #footer_text5{
+	font-size: 4vw;
+	line-height: 5vw;
+	width:50vw;
+	position: relative;
+	left:50%;
+	top:-140vw;
+   }
+.modal-content{
+	width:90vw;
+	border-radius:10px;
+	margin-left:2%;
+}
+   #get_trained .modal-title {
+	font-weight: 600;
+	color: #056B38;
+	font-family: 'serif';
+	font-size: 28px;
+	text-align: center;
+	display: block;
+	text-align: center
+}
+#get_trained .close {
+	font-size: 26px !important;
+	position: absolute;
+	color: #e62a38 !important;
+	right: 15px;
+	opacity: 1;
+	border: none !important;
+	box-shadow: none;
+	transition: all ease .5s;
+	font-weight: 500;
+	padding: 0;
+	top: 26px
+}
+}
+@media screen and (min-width:375px) and (max-width:667px){
+	.heading{
+		font-size: 6vw;
+	}
+	#pccText{
+			margin: -14rem 0rem 0rem -9rem !important;
+	}
+	.res_search img {
+		margin: 1rem 0rem 2rem -1rem;
+	}
+	#res_block {
+		margin-top: -30px;
+		position: relative;
+		right: 40% !important;
+	}
+	.headingElipse{
+		position: relative;
+		left:-19px;
+		top:-1px!important;
+	}
+	.headingElipse_strategy{
+		position: relative;
+		left: -56px !important;;
+	}
+	.reaserchimg{
+		position: relative;
+		left:40px!important;
+	}
+	.feature_img{
+		position: relative;
+		left:-8px!important;
+	}
+	.headingElipse_connect{
+		position: relative;
+		left: 15px!important;
+	}
+	.headingDescription3 {
+		position: relative;
+		width: 95vw!important;
+		left: 0px!important;
+		padding: 20px;
+	}
+	.pac_img{
+		position: relative;
+		left:110px!important;
+	}
+	.headingElipse_pac{
+		font-size: 6.9vw;
+		font-weight: 600;
+		position: relative;
+		left:37%;
+	}
+	#headingElipse_pac{
+		margin-top:30px!important;
+		position: absolute;
+        margin-left:108px;
+	}
+	.headingElipse_strategy{
+		padding:40px;
+	}
+	#headingDescription,#headingDescription3,#headingDescription_pac{
+		margin-left: 30px;
+	}
+	.headingDescription {
+		padding: 20px;
+		width: 95vw;
+		margin: -1rem 1rem 1rem -1rem;
+	}
+	.pac_description{
+		margin-left:150px;
+	}
+	#headingDescription_pac {
+		position: relative;
+		left: 48px!important;
+		padding: 20px;
+		top: -40px;
+	}
+	#headingElipse_gotv{
+		/* margin-left:225px!important; */
+	}
+	#headingElipse_gotv {
+		margin-top: 33px!important;
+		position: absolute;
+		margin-left: 215px!important;
+	}
+	.gotv_description{
+		margin-left:121px;
+	}
+	.dashboardHeading{
+		font-size: 4.7vw;
+		width:95vw;
+		margin-top: 20vw;
+	}
+	.voters_text{
+		font-size: 6vw;
+		line-height: 5vw;
+		margin-top:20px;
+	}
+	.common_bg_voter{
+		height:25vw;
+	}
+	.voter_count{
+		font-size: 5vw;
+		line-height: 5vw;
+		margin-top: 10px;;
+	}
+    .voter_img{
+		height:10vw;
+     margin-top:5px;
+	}
+   .voter_turnout{
+	margin-left:25px;
+   }
+   #voter_turnout2{
+    margin-top: 10px!important;
+   }
+	.election-text{
+     margin-top:30px!important;
+	}
+	#election-text1{
+		top:40px!important;
+	}
+	#voter_turnout2 {
+		margin-top: -30px;
+		width: 87vw !important;
+		height: 80vw;
+	}
+	#why_block {
+		margin: 1rem -7px 0px 14px !important;
+	}
+
+	.Descriptionoauth1{
+		position: relative;
+		right:7px;
+	}
+	.bg_why{
+		margin: 0;
+		padding:0;
+		position: relative;
+		right:10px;
+	}
+	.kumarImage{
+		margin-left:90px!important;
+	}
+	#footerMain{
+		height:600px!important;
+	}
+
+	.kumarName {
+		position: absolute;
+		right: 30%;
+		margin: -1rem 2rem 3rem 0rem;
+	}
+	.chairman {
+		position: absolute;
+		right: 43%;
+		font-weight: 500;
+		font-size: 4vw;
+		line-height: 7vw;
+		margin: 0rem 0rem 0rem 1rem;
+	}
+}
+
+@media screen and (min-width:414px) and (max-width:896px){
+	.heading{
+		font-size: 6vw;
+	}
+	#pccText{
+		position:absolute;
+		left:47.3vw;
+	}
+	#political_text{
+		margin-top:10vw!important;
+	}
+	#res_block{
+		margin-top: 5px;
+		margin-left:40px!important;
+	}
+	#headingDescription_pac{
+		margin-top: 20px;
+	}
+	.pac_description{
+		margin-left:150px;
+		position: relative;
+		top:-15px;
+	}
+	#headingElipse_gotv{
+		padding: 1rem 1rem 1rem 2.5rem;
+	}
+	.gotv_description{
+		position: relative;
+		top:-15px;
+	}
+	.voters_text{
+		font-size: 6vw;
+		line-height: 5vw;
+		margin-top:10px;
+	}
+	.common_bg_voter{
+		height:25vw;
+	}
+	.voter_count{
+		font-size: 5vw;
+		line-height: 5vw;
+		margin-top: 10px;;
+	}
+    .voter_img{
+		height:10vw;
+     margin-top:10px;
+	}
+	.election-text{
+		margin-left: 60px!important;
+		margin-top:70px;
+	   }
+	   #election-text {
+		position: absolute;
+		top: 200px;
+	   }
+	   #election-text1{
+		   margin-left: 0px!important;
+		   position: relative;
+		   top:70px!important;
+	   }
+	   #why_block {
+		margin: 1rem 0rem 0rem 1.6rem !important;
+	}
+	   .Descriptionoauth1{
+		position: relative;
+	   }
+	.kumarImage{
+		position: relative;
+		margin-left:29%!important;
+	}
+	.chairman{
+		position: relative;
+		margin-left:-6%!important;
+	}
+	#footerMain {
+		height: 670px!important;;
+	}
+}
+
+@media screen and (min-width:390px) and (max-width:844px){
+	#pccText{
+		position:absolute;
+		left:48.8vw;
+	}
+	#res_block{
+		margin-left: 25px!important;
+	}
+	.headingDescription{
+		margin-left: -20px;;
+	}
+	#headingDescription{
+		margin-left: 20px;;
+	}
+	#headingDescription3{
+		margin-left: 20px;;
+	}
+	#headingDescription_pac{
+		margin-left: 20px;;
+	}
+	.election-text{
+		margin-top:50px;
+	}
+	#why_block {
+		margin: 1rem 0rem 0rem 1.6rem !important;
+	}	
+}
+@media screen and (min-width:393px) and (max-width:851px){
+	#why_block {
+		margin: 1rem 0rem 0rem 1.6rem !important;
+	}		
+}
+
+@media screen and (min-width:360px) and (max-width:740px){
+	#pccText{
+		position:absolute;
+		left:47.5vw;
+	}
+	#res_block{
+		margin-left:10px;
+	}
+	.dashboardHeading{
+		margin-top:20vw;
+	}
+	.headingElipse_strategy{
+		position: relative;
+		left:-10px;
+	}
+	.headingElipse_gotv{
+	padding-left: 22px;
+	}
+	#gotv_description{
+		position: relative;
+		left:3vw;
+		/* margin-left:10px; */
+	}
+	#election-text{
+		position: relative;
+		top:230px;
+		right:30px;
+	}
+	#election-text1{
+		position: relative;
+		top:30px;
+	}
+	.kumarImage{
+		margin-left:100px!important;
+	}
+	#footerMain{
+		height:580px!important;;
+	}
+
+}
+
+@media (min-width:412px) and (max-width:915px){
+	.heading{
+		font-size: 6vw;
+	}
+#gotv_description{
+
+}
+	.election-text{
+		margin-top:50px;	
+	}
+	#election-text1{
+		position: relative;
+		top:70px!important;
+	}
+	#footerMain{
+		height: 670px !important;;
+	}
+}
+@media screen and (min-width:540px) and (max-width:720px){
+	#pccText{
+		position: absolute;
+		left:230px!important;	
+	}
+	#pccText1{
+		position: relative;
+		left:0px!important;
+	}
+	#political_text{
+		margin-top:120px!important;
+	}
+
+	#res_block{
+		margin-top:100px;
+	}
+	.reaserchimg{
+		position: relative;
+		left:16%!important;
+	}
+	.headingElipse{
+		position: relative;
+		left:0%!important;
+		top:10px;
+	}
+	.headingDescription{
+		margin-left:30px;
+	}
+	.feature_img{
+		position: relative;
+		left:12%!important;
+	}
+	.headingElipse_strategy{
+		margin-left:230px;
+	}
+	#headingDescription{
+		margin-left:100px;	
+	}
+	.headingElipse_connect{
+		margin-left:220px;
+	}
+	#headingDescription3{
+		margin-left:100px;
+	}
+	.pac_img{
+		position: relative;
+		left:38%!important;
+	}
+	.pac_block{
+		margin-top:-100px;
+	}
+	#headingElipse_pac{
+		margin-left: 330px;
+	}
+	.pac_description{
+		margin-left: 240px;
+		margin-top:80px!important;
+	}
+	#headingElipse_gotv{
+		margin-left: 275px!important;
+	}
+	.gotv_description{
+		margin-left: 200px;
+		margin-top:90px!important;
+	}
+	#headingDescription_pac{
+		margin-left:100px;
+		margin-top:10px;
+	}
+	#headingDescription_gotv{
+		margin:70px;
+		margin-top:1px;
+	}
+	.dashboardHeading{
+		margin-top:30vw;
+	}
+	.voters_text{
+		position: relative;
+		top:-110px;
+	}
+	.voter_count{
+		position: relative;
+		top:-10px;
+	}
+	.voter_img{
+		margin-top:-15px;
+	}
+	.voter_turnout{
+		margin-left:36px;
+	}
+	#election-text{
+		position: relative;
+		left:-50px!important;
+		top:350px!important;
+	}
+	#election-text1{
+		position: relative;
+		top:150px!important;
+	}
+	.Descriptionoauth1{
+      position: relative;
+	  right:20px;
+	}
+	.second_circles{
+		position: absolute;
+		left: 10px !important;;
+	}
+	#Descriptionoauth2{
+		position: relative;
+		left: 40px !important;;
+	  }
+	  .bg_why{
+		margin-left:30px!important;
+
+	}
+	.kumarImage{
+		margin-left: 160px!important;
+	}
+	.chairman{
+		margin-left:100px!important;
+	}
+	#footerMain{
+		margin-top:0px;
+		height: 850px !important;;
+	}	
+}
+/* 280 overding 390px; */
+@media screen and (max-device-width:280px){
+	.banner {
+		position: relative;
+		width: 100%;
+		height:47.4vw;
+		top: 0vw !important;;
+	}
+	.banner img {
+		width: 67%;
+		height: auto;
+		position: relative;
+		top:-5vw!important;
+		margin-left:auto;
+		margin-right:auto;
+		display: flex;
+		}
+	.containerBannerArrowText{
+		margin-top:0px;
+	}
+	#pcc_img{
+      position: relative;
+	  margin-top:0px;
+	}
+	#res_block{
+		margin-left:-20px!important;
+	}
+   .reaserchimg{
+	margin-left:100px!important;
+   }
+   .headingElipse{
+	margin-left:80px;
+   }
+	.headingElipse_strategy{
+		margin-left:110px;
+	}
+	.feature_img{
+		margin-left:140px;
+	}
+	.pac_description{
+		position: relative;
+		left:-40px!important;
+	}
+	#headingElipse_gotv{
+		position: relative;
+		top:5px!important;
+		margin-left:60px;
+	}
+	.gotv_description{
+		position: relative;
+		top:-50px;
+		position: relative;
+		left:-30px!important;
+	}
+	.dashboardHeading{
+		font-size: 4.3vw;
+	}
+	.voters_text{
+		margin-top:30px;
+	}
+	.voter_count{
+		margin-top:10px;
+	}
+	.voter_img{
+		margin-top:10px;
+	}
+	.election-text{
+		margin-top: -20px;;
+	}
+	#election-text1{
+		position: relative;
+		top:-20px;
+		}
+	.kumarImage{
+		margin-left:70px!important;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+	.header 
+	 {
+		 background: #3A3A3A;
+		 height: 7.5vw!important;
+	 }
+	
+	.top-nav {
+		float: right;
+	}
+	
+	.top-nav-left {
+		margin: 0.5em 0 15em 10;
+		padding: 0 0 0 4.5em;
+	}
+	.top-nav-left ul {
+		padding: 0;
+		margin: 0em;
+	}
+	.top-nav-left li {
+		display: inline-block;
+		padding: 20px;
+		margin-right:1vw;
+	}
+	.top-nav-left li a {
+		color: #515151;
+		text-decoration: none;
+	}
+	.top-nav-left li a:hover {
+		color: #add136;
+	}
+	.top-nav-right {
+		float: right;
+		margin: 1.5em 1.5em 2.5em 0px;
+	}
+	.top-nav-left span.menu {
+		display: none;
+	}
+	.top-nav-left span.menu:before {
+		content: url("../images/menu.png");
+		cursor: pointer;
+		width: 100%;
+	}
+	.bar_img{
+		height:3.125vw;
+		position: relative;
+		top:-5px;
+	}
+	.scroll {
+		text-align: left;
+		color: #ffffff !important;
+		font-family: 'Century Gothic';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.388vw;
+	line-height:1.73611vw;
+	color: #FFFFFF;
+	}
+	.scroll_mobile{
+		font-family: 'Century Gothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.111vw;
+	line-height:1.3888vw;
+	color: #FFFFFF!important;
+	}
+	.call{
+		height:1vw;
+		width:1vw;
+	}
+	 .bar_img{
+		position: relative;
+		top:0vw;
+		height:2vw;
+	 }
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	  }
+	  .dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		width: 300px;
+		height:90px;;
+    	margin-left:-100px!important;
+		margin-top:19px!important;
+	     color: #3A3A3A;
+		}
+	  .dropdown:hover .dropdown-content {
+		display: block;
+	  }
+	  .dropbar{
+		height:5vw;
+		width:3px;
+		margin-left:40px;
+		margin-top:0px!important;
+	  }
+	  .dropdown_list{
+		margin:15px!important;
+	  }
+	  .dropdown_list li{
+		font-size: 1vw;;
+		color:#FFFFFF;
+		color:black;
+		line-height: 0.3vw;;
+		font-family: 'Century Gothic';
+		font-style: normal;
+		font-weight: 400;
+			margin: 0;
+			padding: 0.2em;
+	  }
+	  #asp{
+		padding-left:155px;
+		position: relative;
+		top:-30px;
+	  }
+	  #cs{
+		position: relative;
+		top:50px!important;
+		right:130px;
+	  }
+
+	 .banner {
+		 position: relative;
+		 width: 100%;
+		 top:0vw;
+	 }
+	 .banner img {
+		position: relative;
+		top:-0.3vw;
+	 }
+	 .containerBannerArrowText{
+	 }
+	 .content-video{
+	 }
+	 #video{
+	 }
+   .runManContent{
+	 position: relative;
+	 line-height: 10vw;
+	 margin-left: 35%;
+	 top:8vw!important;
+   }
+   .run_man_img{
+	 position: relative;
+	 margin-top:30vw;
+	 display: block;
+	 margin-left:auto;
+	 margin-right:auto;
+   }
+   .heading{
+	font-size: 4vw;
+	 margin-top: 2vw;
+   }
+   #pccText1{
+	position: relative;
+   }
+   .pcc_img{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+   }
+#political_text{
+	font-size: 4vw;
+}
+ #res_block {
+	 margin-top: 0px!important;
+ }
+ .res_search img{
+	 position: relative;
+ }
+ .res_search {
+	 position: absolute;
+	 right: 35%;
+ }
+ .reaserchimg{
+	position: relative;
+	right:2.1%;
+	width:10vw;
+	height:auto;
+ }
+ .headingElipse{
+	 font-size: 4vw!important;
+	 position: relative;
+	 left:16%;
+	 top:-35px;
+ }
+ .headingDescription {
+	 position: relative;
+	 left:45%;
+	 top:-40px;
+	 font-size: 3vw!important;
+	 line-height: 30px;
+	 width:60vw;
+ }
+ .strategy_block{
+	position: relative;
+	right:40vw!important;
+	top:35vw;
+ }
+ .feature_img{
+	 position: relative;
+	 top:-30vw;
+	 left:10%;
+	 width:10vw;
+	height:auto;
+ }
+ .headingElipse_strategy{
+	 position: relative;
+	 top:-35vw;
+	 left:25%;
+ }
+ #headingDescription{
+	 position: relative;
+	 top:-35vw!important;
+	 font-size: 3vw!important;
+	 line-height: 30px;
+	 width:60vw;
+	 left:51%!important;;
+ }
+ .connect_block{
+	position: relative;
+	right:53%;
+	margin-top:58%;
+ }
+
+ .connect_img{
+	 position: relative;
+	 left:16%;
+	 top:-39vw;
+ }
+ .headingElipse_connect{
+	 font-size: 30px;
+	 font-weight: 600;
+	 position: relative;
+	 left:30%;
+	 top:-44vw;
+ }
+ #headingDescription3{
+	 top:-352px;;
+	 left:56.5%!important;;
+	 font-size: 3vw!important;
+	 line-height: 30px;
+	 width:60vw;
+	 position: relative;
+ }
+ .pac_block{
+	position: absolute;
+	top:-40.5vw;
+	right:54%;
+}
+ .pac_img{
+	width:10vw;
+	height:auto;
+	 position: relative;
+	 left:20.5vw!important;;
+	 top:0px!important;
+ }
+ #headingElipse_pac{
+	 position: absolute;
+	 left:68vw;
+	 top:-78px!important; 
+ }
+ #headingDescription_pac{
+	 position: relative;
+	 top:-30px;
+	 padding:10px;
+	 font-size: 3vw;
+	 line-height: 30px;
+	 width:60vw;
+	 left:52vw!important;;
+ }
+ .pac_description{
+	 margin-left: 450px!important;;
+	 font-size:1.5vw;
+	 top:-24px!important;
+ }
+ .gotv_block{
+	position: absolute;
+	top:0vw;
+	right:38%;
+ }
+ .gotv_img{
+	 position: absolute;
+	 left:44vw!important;;
+	 top:-300px!important;
+ }
+ #headingElipse_gotv{
+	 position: relative;
+	 left:9%;
+	 top:-248px!important;
+ }
+ .heading_description_gotv{
+	 position: relative;
+	 left:55%;
+	 top:-220px!important;
+ }
+ #gotv_description{
+	font-size: 1.5vw;
+	 position: relative;
+	 left:50vw;;
+	 top:-210px!important;
+ }
+ 
+ #dashboard_block{
+	margin-top:-15vw;
+ }
+ .dashboardHeading{
+	 position: relative;
+	 right:30px;
+	 top:-100px;
+ }
+ .total_voter_block,.total_voter_block_second,.total_voter_block_third,.total_voter_block_fourth{
+	 width:auto;
+	 height:18vw;
+ }
+ .common_bg_voter{
+	height:15vw;
+ }
+ .voter_img{
+	height:8vw;
+	margin-top:0px!important;
+ }
+ .voters_text{
+	 font-size: 3.5vw;
+	 margin-top:0px!important;
+ }
+ .voter_count{
+	margin-top:0px;
+	 font-size: 3.5vw;
+ }
+ .chart_block{
+	margin-top: 10vw;;
+ }
+ .pie_chart{
+	 width:60%;
+	 height:auto;
+ } 
+ .voter_turnout{
+	 position: relative;
+ left:140px;
+ height:40vw;
+ margin:30px;
+ width:55vw;
+ }
+ .election_booth_img1{
+	 position: relative;
+	 left:0%;
+	 top:0px;
+	 width:35vw;
+	 height:auto;
+ }
+ .election_booth_img2{
+  position: relative;
+  left:0%;
+  width:20vw;
+  height:auto;
+ 
+ }
+ #election-text{
+	 position: relative;
+	 font-size:3vw;
+	 top:-50px;
+	 right:20px;
+ }
+ #election-text1{
+	 font-size:3vw;
+	 margin-top:-20px;
+	 position: relative;
+ }
+ #bg_why{
+	 width: 94% !important;
+	 position: relative;
+	 right:1%;
+	 height:auto;
+ }
+ .PCC_img{
+	 margin-left:160px;
+ }
+ .whyDescription{
+	 font-size: 3vw;
+	 line-height: 40px;
+ }
+ 
+ .description_block { 
+	 position: relative;
+	 right: 20%;
+	 margin-top:0px;
+ }
+ .circle{
+	 position: absolute;
+	 left: 0% !important;
+	 top:58px;
+ }
+ .first_circle{
+	 position: absolute;
+	 left: 1% !important;;
+ }
+ .Descriptionoauth {
+	 font-weight: 500;
+	 font-size: 28px;
+	 line-height: 40px;
+	 width: 89%;
+	 position: relative;
+	 left: 74px !important;;
+ }
+  .edu_oath {
+	 position: relative;
+	 right: 13%;
+	 top:-40px;
+ }
+ .second_circles{
+	 position: absolute;
+	 left: 0% !important;;
+ } 
+  .Descriptionoauth2 {
+	 width: 89%;
+	 position: relative;
+	 left: 37px !important;;
+ }
+ .cermany_block {
+	 position: relative;
+	 right: 10%;
+	 top:-90px;
+ } 
+ .third_circle{
+	 position: absolute;
+	 left:1% !important;;
+ }
+ .Descriptionoauth3{
+	 position: relative;
+	 left: 10px !important;;
+	 width: 89%;
+ }
+ #oath_img {
+	 height: 90% !important;
+	 width: 90%;
+	 position: relative;
+	 left:0%;
+	 top:-90px;
+ }
+ .kumarWriting{
+	 font-weight: 500;
+	 font-size: 28px;
+	 line-height: 40px;
+	 padding:0;
+	 margin-top:20px;
+	 margin: 20px;;
+	 
+   }
+ .kumarImage {
+	 width:40%;
+	 height:auto;
+	 border-radius: 50%;
+	 margin: 1rem 0 0 43rem !important;
+ }
+ .kumarName{
+	 position: absolute;
+	 right:8%;
+	 font-size: 28px;
+ }
+ .chairman{
+	 margin-left:300px!important;
+	 font-size: 18px;
+ }
+ #footerMain {
+	 height: 900px!important;;
+ }
+ .footerLogoMain img{
+   position: relative;
+   left:30%;
+   top:70px;
+   width:30%;
+   height:auto;
+ }
+ #footer_text1 {
+	 position: relative;
+	 font-weight: 500;
+	 font-size: 20px;
+	 line-height: 20px;
+	 width:40vw;
+	 top:-10vw;
+	 left:1.9%;
+ }
+ #footer_text2{
+	 position: absolute;
+	 font-weight: 500;
+	 font-size: 3vw;
+	 line-height: 3vw;
+	 width:40vw;
+	 top:10vw;
+	 right:56%;
+ }
+ #footer_text3{
+	 position: absolute;
+	 font-weight: 500;
+	 font-size: 3vw;
+	 line-height: 3vw;
+	 width:40vw;
+	 top:10vw;
+	 left:24%;
+ }
+ #footer_text4{
+	 position: absolute;
+	 font-weight: 500;
+	 font-size: 3vw;
+	 line-height: 3vw;
+	 width:40vw;
+	 top:36.1vw;
+	 right:56%;
+ }
+ #footer_text5{
+	 position: absolute;
+	 font-weight: 500;
+	 font-size: 3vw;
+	 line-height: 3vw;
+	 width:40vw;
+	 top:54vw;
+	 right:1%;
+ }
+ 
+ }
+
+@media screen and (min-width:820px) and (max-width:1180px){
+	#asp{
+		/* padding-left:305px; */
+		position: relative;
+		top:-30px;
+		width:280px!important;
+	  }
+	  #cs{
+		position: relative;
+		top:50px!important;
+		right:140px;
+	  }
+	.banner_img{
+		position: relative;
+		top:0vw!important;
+	}
+	.pac_description{
+		position: relative;
+		left:0vw;
+	}
+	.vc{
+		position: relative;
+		left:15px!important;
+	}
+	.vc1{
+		position: relative;
+		left:15px!important;
+	}
+}
+
+@media screen and (device-width:912px) and (max-device-width:1368px){
+	
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	  }
+	  .dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		width: 350px;
+		height:100px;;
+    	margin-left:-100px!important;
+		margin-top:29px!important;
+	     color: #3A3A3A;
+		}
+	  .dropdown:hover .dropdown-content {
+		display: block;
+	  }
+	  .dropbar{
+		height:5vw;
+		width:3px;
+		margin-left:60px;
+		margin-top:0px!important;
+	  }
+	  .dropdown_list{
+		margin:15px!important;
+	  }
+	  .dropdown_list li{
+		font-size: 1vw;;
+		color:#FFFFFF;
+		color:black;
+		line-height: 0.3vw;;
+		font-family: 'Century Gothic';
+		font-style: normal;
+		font-weight: 400;
+			margin: 0;
+			padding: 0.2em;
+	  }
+	  #asp{
+		padding-left:200px;
+		position: relative;
+		top:-30px;
+		width:400px!important;
+	  }
+	  #cs{
+		position: relative;
+		top:55px!important;
+		right:155px;
+	  }
+
+	.content_end{
+	}
+	.headingDescription{
+		margin-left:-20px;
+	}
+	.feature_img{
+		margin-left:-50px;
+	}
+	#headingDescription{
+		margin-left: 0px;;
+	}
+	.connect_block{
+		margin-left:58px;
+	}
+	#headingElipse_pac{
+		margin-left:30px;
+	}
+	#pac_description{
+		position: relative;
+		left:12vw;
+	}
+	#headingDescription_pac{
+		margin-left:45px;
+	}
+	.gotv_img{
+		margin-left:20px;
+	}
+	#gotv_description{
+		margin-left: 60px;;
+		margin-top:10px;
+	}
+	.heading_description_gotv{
+		margin-left:-40px!important;
+	}
+	.vc1{
+		position: absolute;
+		left:15px!important;
+		top:40px!important;
+	}
+	.voter_count{
+		position: relative;
+		top:40px;
+	}
+	#footerMain {
+		height: 900px!important;
+	}
+}
+
+ @media screen  and (device-width: 1024px) {
+
+  .header{
+	height: 6vw !important;;
+	display: block;
+  }
+   .banner {
+	position: relative;
+	width: 100%;
+	top:0vw;
+}
+.banner img {
+	width: 100%;
+	position: relative;
+	top:-2vw!important;
+	height: auto;
+}
+.heading{
+	font-size: 5vw;
+}
+.pac_description{
+	margin-left:-90px !important;;
+}
+.common_bg_voter{
+	height:70px;
+}
+.voters_text{
+	margin-top:30px!important;
+	font-size: 1.3vw;
+}
+.voter_count{
+	margin-top: 0px;;
+}
+.voter_img{
+	margin-top:10px;
+    height:auto;
+	width:5vw;
+}
+.bg_why{
+	height:52vw;
+}
+ }
+
+
+
+
+
