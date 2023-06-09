@@ -2729,3 +2729,14 @@ margin-left:-3vw;
 		top:-4.8vw;
 	}	
 }
+
+@media screen and (device-width:912px){
+	.Descriptionoauth {
+		font-weight: 500;
+		font-size: 4.8888vw;
+		line-height: 5.555vw;
+		width: 70vw;
+		position: relative;
+		margin-left:17vw;
+		}
+}
